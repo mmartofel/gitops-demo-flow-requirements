@@ -10,16 +10,7 @@ spec:
   description: Application project to host with all cluster setup requirements
   destinations:
     - name: '*'
-      namespace: openshift-gitops
-      server: '*'
-    - name: '*'
-      namespace: openshift-operators
-      server: '*'
-    - name: '*'
-      namespace: dev
-      server: '*'
-    - name: '*'
-      namespace: istio-system
+      namespace: '*'
       server: '*'
   sourceRepos:
     - '*'
