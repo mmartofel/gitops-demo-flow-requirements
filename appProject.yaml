@@ -10,7 +10,7 @@ spec:
   description: Application project to host with all cluster setup requirements
   destinations:
     - name: '*'
-      namespace: dev
+      namespace: openshift-gitops
       server: '*'
   sourceRepos:
     - '*'
