@@ -12,5 +12,8 @@ spec:
     - name: '*'
       namespace: openshift-gitops
       server: '*'
+    - name: '*'
+      namespace: openshift-operators
+      server: '*'
   sourceRepos:
     - '*'
