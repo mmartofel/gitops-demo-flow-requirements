@@ -1,4 +1,7 @@
 resources:
  - pipelines.yaml
  - gitops.yaml
+ - elasticsearch.yaml
+ - distributed-tracing-platform.yaml
+ - kiali.yaml
  - servicemesh.yaml
