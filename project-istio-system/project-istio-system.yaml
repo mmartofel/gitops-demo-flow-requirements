@@ -5,6 +5,7 @@ metadata:
   labels:
     kubernetes.io/metadata.name: istio-system
     app.kubernetes.io/instance: project-istio-system
+    argocd.argoproj.io/managed-by: dev
   annotations:
     openshift.io/description: 'GitOps demo flow development project to host Istio controll plane'
     openshift.io/display-name: 'ISTIO-SYSTEM - Istio controll plane'
