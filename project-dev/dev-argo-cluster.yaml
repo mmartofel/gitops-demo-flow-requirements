@@ -1,0 +1,12 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: dev-argo-cluster
+  namespace: dev
+  labels:
+    app.kubernetes.io/managed-by: dev-argo
+    app.kubernetes.io/name: dev-argo-cluster
+    app.kubernetes.io/part-of: argocd
+data:
+  admin.password: YWRtaW4=
+type: Opaque
