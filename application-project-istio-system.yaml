@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: project-istio-system
+spec:
+  project: requirements
+  source:
+    repoURL: 'https://github.com/mmartofel/gitops-demo-flow-requirements'
+    path: project-istio-system
+    targetRevision: HEAD
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: openshift-gitops

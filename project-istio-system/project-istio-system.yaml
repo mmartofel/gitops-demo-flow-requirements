@@ -1,0 +1,13 @@
+kind: Project
+apiVersion: project.openshift.io/v1
+metadata:
+  name: istio-system
+  labels:
+    kubernetes.io/metadata.name: istio-system
+    app.kubernetes.io/instance: project-istio-system
+  annotations:
+    openshift.io/description: 'GitOps demo flow development project to host Istio controll plane'
+    openshift.io/display-name: 'ISTIO-SYSTEM - Istio controll plane'
+spec:
+  finalizers:
+    - kubernetes

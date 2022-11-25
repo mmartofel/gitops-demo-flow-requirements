@@ -1,0 +1,4 @@
+resources:
+ - project-istio-system.yaml
+ - servicemesh-member-role.yaml
+ - servicemesh-controll-plane.yaml
