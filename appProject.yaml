@@ -15,5 +15,8 @@ spec:
     - name: '*'
       namespace: openshift-operators
       server: '*'
+    - name: '*'
+      namespace: dev
+      server: '*'
   sourceRepos:
     - '*'
