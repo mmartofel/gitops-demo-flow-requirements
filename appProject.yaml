@@ -18,5 +18,8 @@ spec:
     - name: '*'
       namespace: dev
       server: '*'
+    - name: '*'
+      namespace: istio-system
+      server: '*'
   sourceRepos:
     - '*'
