@@ -1,0 +1,12 @@
+kind: Project
+apiVersion: project.openshift.io/v1
+metadata:
+  name: dev
+  labels:
+    kubernetes.io/metadata.name: dev
+  annotations:
+    openshift.io/description: 'GitOps demo flow development project'
+    openshift.io/display-name: 'DEV - Project'
+spec:
+  finalizers:
+    - kubernetes

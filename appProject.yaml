@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: requirements
+  namespace: openshift-gitops
+spec:
+  clusterResourceWhitelist:
+    - group: '*'
+      kind: '*'
+  description: Application project to host with all cluster setup requirements
+  destinations:
+    - name: '*'
+      namespace: dev
+      server: '*'
+  sourceRepos:
+    - '*'
