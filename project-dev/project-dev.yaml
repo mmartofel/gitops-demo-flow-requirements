@@ -6,8 +6,8 @@ metadata:
     kubernetes.io/metadata.name: dev
     app.kubernetes.io/instance: project-dev
   annotations:
-    openshift.io/description: 'GitOps demo flow development project'
-    openshift.io/display-name: 'DEV - Project'
+    openshift.io/description: 'GitOps demo flow development project to host private ArgoCD instance for developers'
+    openshift.io/display-name: 'DEV - Project with private ArgoCD'
 spec:
   finalizers:
     - kubernetes

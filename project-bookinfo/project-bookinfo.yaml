@@ -1,0 +1,13 @@
+kind: Project
+apiVersion: project.openshift.io/v1
+metadata:
+  name: bookinfo
+  labels:
+    kubernetes.io/metadata.name: bookinfo
+    app.kubernetes.io/instance: project-bookinfo
+  annotations:
+    openshift.io/description: 'GitOps demo flow development project to host example application with servicemesh'
+    openshift.io/display-name: 'BOOKINFO - Project with BOOKINFO app'
+spec:
+  finalizers:
+    - kubernetes
