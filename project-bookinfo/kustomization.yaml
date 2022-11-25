@@ -1,3 +1,4 @@
 resources:
  - project-bookinfo.yaml
  - servicemesh-member-role.yaml
+ - servicemesh-controll-plane.yaml
