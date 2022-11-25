@@ -4,6 +4,7 @@ metadata:
   name: dev-argo-cluster
   namespace: dev
   labels:
+    app.kubernetes.io/instance: project-dev
     app.kubernetes.io/managed-by: dev-argo
     app.kubernetes.io/name: dev-argo-cluster
     app.kubernetes.io/part-of: argocd
