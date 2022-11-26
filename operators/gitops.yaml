@@ -3,7 +3,6 @@ kind: Subscription
 metadata:
   name: openshift-gitops-operator
   namespace: openshift-operators
-  app.kubernetes.io/instance: operators
 spec:
   channel: latest
   name: openshift-gitops-operator
