@@ -1,0 +1,4 @@
+resources:
+ - project-bookinfo.yaml
+ - project-dev.yaml
+ - project-istio-system.yaml

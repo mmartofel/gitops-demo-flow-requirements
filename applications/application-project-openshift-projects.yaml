@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: project-bookinfo
+  name: openshift-projects
 spec:
   project: requirements
   source:
     repoURL: 'https://github.com/mmartofel/gitops-demo-flow-requirements'
-    path: project-bookinfo
+    path: openshift-projects
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'

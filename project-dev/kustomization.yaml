@@ -1,4 +1,4 @@
 resources:
- - project-dev.yaml
- - dev-argo.yaml
  - dev-argo-cluster.yaml
+ - dev-argo.yaml
+ 
